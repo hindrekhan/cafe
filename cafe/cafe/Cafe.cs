@@ -45,6 +45,8 @@ namespace cafe
 
         public void Run()
         {
+            AskMoney();
+
             while (true)
             {
                 Console.WriteLine("1. Telli toitu");
@@ -83,6 +85,34 @@ namespace cafe
                 }
             }
 
+        }
+
+        public void AskMoney()
+        {
+            while (true)
+            {
+                float userInput;
+
+                Console.Clear();
+
+                Console.WriteLine("Palju teil raha on?");
+
+                try
+                {
+                    userInput = float.Parse(Console.ReadLine());
+                }
+
+                catch
+                {
+                    Console.WriteLine("Peate sisestama arvu");
+                    Console.WriteLine();
+                    continue;
+                }
+
+                client.Money = userInput;
+
+                return;
+            }
         }
 
         public void Order(List<Edible> edibleList)
