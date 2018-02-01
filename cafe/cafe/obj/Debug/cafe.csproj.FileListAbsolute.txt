@@ -1,0 +1,6 @@
+c:\users\opilane\documents\visual studio 2017\Projects\cafe\cafe\bin\Debug\cafe.exe.config
+c:\users\opilane\documents\visual studio 2017\Projects\cafe\cafe\bin\Debug\cafe.exe
+c:\users\opilane\documents\visual studio 2017\Projects\cafe\cafe\bin\Debug\cafe.pdb
+c:\users\opilane\documents\visual studio 2017\Projects\cafe\cafe\obj\Debug\cafe.csprojResolveAssemblyReference.cache
+c:\users\opilane\documents\visual studio 2017\Projects\cafe\cafe\obj\Debug\cafe.exe
+c:\users\opilane\documents\visual studio 2017\Projects\cafe\cafe\obj\Debug\cafe.pdb
