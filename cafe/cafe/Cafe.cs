@@ -75,7 +75,6 @@ namespace cafe
                         break;
 
                     case "4":
-                        Exit();
                         return;
 
                     default:
@@ -165,11 +164,6 @@ namespace cafe
 
                 Console.WriteLine();
             }
-        }
-
-        public void Exit()
-        {
-
         }
     }
 }
