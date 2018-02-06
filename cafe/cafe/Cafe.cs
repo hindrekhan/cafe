@@ -119,8 +119,7 @@ namespace cafe
                 int i;
 
                 for (i = 0; i < edibleList.Count; i++)
-                    Console.WriteLine((i + 1) + ". " + edibleList[i].Name
-                                    + " - " + edibleList[i].Cost + "€");
+                    edibleList[i].PrintOrder(i);
                 Console.WriteLine((i + 1) + ". Tagasi");
                 Console.WriteLine();
                 client.PrintBalance();

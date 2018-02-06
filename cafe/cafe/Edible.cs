@@ -17,5 +17,10 @@ namespace cafe
             client.Money -= Cost;
             client.BoughtEdibles.Add(this);
         }
+
+        public void PrintOrder(int count)
+        {
+            Console.WriteLine((count + 1) + ". " + Name + " - " + Cost + "€");
+        }
     }
 }
