@@ -65,18 +65,14 @@ namespace cafe
                     case "1":
                         Order(allFoods);
                         break;
-
                     case "2":
                         Order(allCoffees);
                         break;
-
                     case "3":
                         client.PrintBoughtEdibles();
                         break;
-
                     case "4":
                         return;
-
                     default:
                         Console.WriteLine("Teadmata käsk");
                         Console.WriteLine();
