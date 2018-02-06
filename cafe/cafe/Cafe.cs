@@ -153,11 +153,7 @@ namespace cafe
                         Console.WriteLine("Sul pole piisavalt raha");
 
                     else
-                    {
-                        Console.WriteLine("Sa ostsid " + currentEdible.Name);
-                        client.Money -= currentEdible.Cost;
-                        client.BoughtEdibles.Add(currentEdible);
-                    }
+                        client = currentEdible.Buy(client);
                 }
 
                 else

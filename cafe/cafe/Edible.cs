@@ -10,5 +10,12 @@ namespace cafe
     {
         public string Name;
         public float Cost;
+
+        public virtual void Buy(Client client)
+        {
+            Console.WriteLine("Sa ostsid " + Name);
+            client.Money -= Cost;
+            client.BoughtEdibles.Add(this);
+        }
     }
 }
