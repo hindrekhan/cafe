@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Cafe.cs" />
     <Compile Include="Client.cs" />
-    <Compile Include="Coffee.cs" />
     <Compile Include="coffees\Americano.cs" />
     <Compile Include="coffees\Cappucino.cs" />
     <Compile Include="coffees\Espresso.cs" />
@@ -52,7 +51,6 @@
     <Compile Include="coffees\Machiatto.cs" />
     <Compile Include="coffees\Mocha.cs" />
     <Compile Include="Edible.cs" />
-    <Compile Include="Food.cs" />
     <Compile Include="foods\Cake.cs" />
     <Compile Include="foods\Hamburger.cs" />
     <Compile Include="foods\Pizza.cs" />

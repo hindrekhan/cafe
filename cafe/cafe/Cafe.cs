@@ -83,7 +83,6 @@ namespace cafe
                         break;
                 }
             }
-
         }
 
         public void AskMoney()
@@ -109,6 +108,8 @@ namespace cafe
                 }
 
                 client.Money = userInput;
+
+                Console.Clear();
 
                 return;
             }

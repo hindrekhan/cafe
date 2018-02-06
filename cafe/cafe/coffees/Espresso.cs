@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cafe.coffees
 {
-    class Espresso : Coffee
+    class Espresso : Edible
     {
         public Espresso()
         {

@@ -1,0 +1,6 @@
+C:\Users\opilane\Documents\GitHub\cafe\cafe\cafe\obj\Debug\cafe.csprojResolveAssemblyReference.cache
+C:\Users\opilane\Documents\GitHub\cafe\cafe\cafe\bin\Debug\cafe.exe.config
+C:\Users\opilane\Documents\GitHub\cafe\cafe\cafe\bin\Debug\cafe.exe
+C:\Users\opilane\Documents\GitHub\cafe\cafe\cafe\bin\Debug\cafe.pdb
+C:\Users\opilane\Documents\GitHub\cafe\cafe\cafe\obj\Debug\cafe.exe
+C:\Users\opilane\Documents\GitHub\cafe\cafe\cafe\obj\Debug\cafe.pdb
